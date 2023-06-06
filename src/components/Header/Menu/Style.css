@@ -1,0 +1,153 @@
+/* Menu Top*/
+
+#TopMenu {
+  width: 100%;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#TopMenu-Logos {
+  width: 96px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-left: 36px;
+}
+
+#TopMenu-Logos img {
+  width: 24px;
+  height: 24px;
+}
+
+#TopMenu-Links {
+  width: 272.81px;
+  height: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 36px;
+}
+
+#TopMenu-Links a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 14px;
+  color: #000000;
+  text-decoration: none;
+  border-right: 1px #111111 solid;
+  padding-right: 15.38px;
+}
+
+#TopMenu-Links #none {
+  border: none;
+}
+
+/* Menu */
+
+#Menu {
+  width: 100%;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#Menu img {
+  margin-left: 48.07px;
+}
+
+#BoxMenu {
+  width: 1240px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#Menu nav {
+  width: 486px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 185.32px;
+}
+
+#Menu nav a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #111111;
+  text-decoration: none;
+}
+
+#MenuItens {
+  width: 290px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 38px;
+  gap: 12px;
+}
+
+#Search {
+  width: 180px;
+  height: 42px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+#SearchButton {
+  width: 128px;
+  height: 40px;
+  padding-left: 50px;
+  background: #f5f5f5;
+  border-radius: 20px;
+  border: none;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #cccccc;
+}
+
+.SearchIcon {
+  position: absolute;
+  background: url("./assets/Search.svg") no-repeat center;
+  background-size: 19px 19px;
+  border: none;
+  border-radius: 100px;
+  width: 40px;
+  height: 34px;
+  top: 50%;
+  left: 7px;
+  transform: translateY(-50%);
+}
+
+#btn1 {
+  width: 36px;
+  height: 36px;
+  border: none;
+  background: url("./assets/Heart.svg") no-repeat center transparent;
+  background-size: 24px 24px;
+}
+
+#btn2 {
+  width: 36px;
+  height: 36px;
+  border: none;
+  background: url("./assets/Cart.svg") no-repeat center transparent;
+  background-size: 24px 24px;
+}

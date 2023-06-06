@@ -1,0 +1,25 @@
+#Carrousel {
+  overflow: hidden;
+  width: 100%;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#inner {
+  white-space: nowrap;
+  transition: transform 0.3s;
+}
+
+#CarrouselItem {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  color: #000;
+  gap: 5px;
+}
+
+
