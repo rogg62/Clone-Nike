@@ -6,25 +6,79 @@ import NikeLogo from "./assets/NikeLogo.svg";
 const Menu = () => {
   return (
     <nav id="Menu">
-      <img src={NikeLogo} alt="" />
-      <div id="BoxMenu">
-        <nav>
-          <a href="New">New & Featured</a>
-          <a href="Men">Men</a>
-          <a href="Women">Women</a>
-          <a href="Kids">Kids</a>
-          <a href="Sale">Sale</a>
-          <a href="SNKRS">SNKRS</a>
-        </nav>
-      </div>
+      <div id="navMenu">
+        <img src={NikeLogo} alt="" />
 
-      <div id="MenuItens">
-        <div id="Search">
-          <input type="text" name="" placeholder="Search" id="SearchButton" />
-          <button className="SearchIcon"></button>
+        <div id="linksMenu2">
+          <div className="dropdown">
+            <button className="dropbtn">dias dos namorados</button>
+
+            <div className="dropdown-content">
+              <div className="row">
+                <div className="column"></div>
+              </div>
+            </div>
+          </div>
+
+          <div className="dropdown">
+            <button className="dropbtn">Lançamentos</button>
+            <div className="dropdown-content">
+              <div className="row">
+                <div className="column"></div>
+              </div>
+            </div>
+          </div>
+
+          <div className="dropdown">
+            <button className="dropbtn">Ofertas</button>
+
+            <div className="dropdown-content">
+              <div className="row">
+                <div className="column"></div>
+              </div>
+            </div>
+          </div>
+
+          <div className="dropdown">
+            <button className="dropbtn">Masculino</button>
+
+            <div className="dropdown-content">
+              <div className="row">
+                <div className="column"></div>
+              </div>
+            </div>
+          </div>
+
+          <div className="dropdown">
+            <button className="dropbtn">Feminino</button>
+
+            <div className="dropdown-content">
+              <div className="row">
+                <div className="column"></div>
+              </div>
+            </div>
+          </div>
+
+          <div className="dropdown">
+            <button className="dropbtn">SNKRS</button>
+
+            <div className="dropdown-content">
+              <div className="row">
+                <div className="column"></div>
+              </div>
+            </div>
+          </div>
         </div>
-        <button id="btn1"></button>
-        <button id="btn2"></button>
+
+        <div id="buttonsMenu">
+          <div id="search">
+            <input type="text" placeholder="Buscar" />
+            <button></button>
+          </div>
+
+          <button id="btn1" className="button"></button>
+          <button id="btn2" className="button"></button>
+        </div>
       </div>
     </nav>
   );
