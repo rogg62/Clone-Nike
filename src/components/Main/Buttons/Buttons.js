@@ -36,6 +36,14 @@ const Buttons5 = () => {
   )
 }
 
+const Buttons6 = () => {
+  return (
+    <Button
+    name="Ver Lançamentos" />
+  )
+}
 
 
-export {Buttons1, Buttons2, Buttons3, Buttons4, Buttons5}
+
+
+export {Buttons1, Buttons2, Buttons3, Buttons4, Buttons5, Buttons6}

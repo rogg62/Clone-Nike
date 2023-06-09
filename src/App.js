@@ -6,6 +6,8 @@ import Carousel, {
 import Section1 from "./components/Main/section1/section1";
 import Section2 from "./components/Main/section2/Section2";
 import Section3 from "./components/Main/section3/Section3";
+import Section4 from "./components/Main/section4/Section4";
+import Section5 from "./components/Main/section5/Section5";
 
 import {
   Buttons1,
@@ -13,6 +15,7 @@ import {
   Buttons3,
   Buttons4,
   Buttons5,
+  Buttons6
 } from "./components/Main/Buttons/Buttons";
 import Logo1 from "./components/Header/Menu/assets/span.svg";
 import Logo2 from "./components/Header/Menu/assets/free_exchange_c7e139dc0d.png";
@@ -62,7 +65,6 @@ function App() {
         <Buttons4 />
       </section>
 
-
       <div id="title">
         <h1>Dia dos Namorados</h1>
       </div>
@@ -72,6 +74,24 @@ function App() {
         <Buttons1 />
         <Buttons5 />
         <Buttons2 />
+      </section>
+
+      <div id="title">
+        <h1>Conteúdos Semanais com Dibradoras</h1>
+      </div>
+      <Section4 />
+      
+      <section id="Base">
+        <Buttons2 />
+      </section>
+
+      <div id="title">
+        <h1>Lançamentos</h1>
+      </div>
+      <Section5 />
+
+      <section id="Base">
+        <Buttons6 />
       </section>
     </div>
   );
