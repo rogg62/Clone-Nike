@@ -248,4 +248,19 @@
   clear: both;
 }
 
+@media screen and (min-width: 1080px) and (max-width: 1301px) {
+ 
+#Menu img{
+  position: relative;
+}
 
+#navMenu {
+  width: 100%;
+  justify-content: space-between;
+}
+
+#navMenu #buttonsMenu {
+  position: relative;
+  gap: 16px;
+}
+}

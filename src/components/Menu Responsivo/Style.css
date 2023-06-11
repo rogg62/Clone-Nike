@@ -1,0 +1,92 @@
+@media screen and (min-width: 1081px) {
+  #Responsivo {
+    display: none;
+  }
+}
+
+#Responsivo {
+  width: 100%;
+  height: 107px;
+  background: #ffffff;
+}
+
+#topReponsivo {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#topReponsivo img{
+    margin-left: 15px;
+}
+
+#ButtonNavResponsivo {
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-right: 15px;
+}
+
+#ButtonNavResponsivo .button {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  border-radius: 200px;
+}
+
+#btn3 {
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: transparent;
+}
+
+#bottomReponsivo {
+  width: 100%;
+  height: 50px;
+  display: inline-flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+}
+
+#bottomReponsivo input {
+  position: absolute;
+  width: 93%;
+  height: 40px;
+  position: absolute;
+  border-radius: 200px;
+  background: #f7f7f7;
+  border: none;
+  padding-left: 60px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #737373;
+}
+
+#bottomReponsivo button{
+    position: absolute;
+    top: 2px;
+    left: 10px;
+    width: 38px;
+    height: 38px;
+    background: url(../Header/Menu/assets/Search.svg) no-repeat center #fff;
+    background-size: 18px 18px;
+    border: none;
+    border-radius: 100%;
+}
+

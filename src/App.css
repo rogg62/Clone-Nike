@@ -1,38 +1,11 @@
 .App {
   width: 100%;
-  height: auto;
+  height: 100vh;
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   font-family: "Inter", sans-serif;
-  background:#F7F7F7;
+  background: grey;
 }
 
-#Base {
-  width: 1360px;
-  height: 96px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-}
-
-#title {
-  width: 1360px;
-  height: auto;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: left;
-  margin: 71.8px 0  32.2px 0;
-}
-
-#title h1 {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 29px;
-  line-height: 38px;
-  color: #000000;
-}
