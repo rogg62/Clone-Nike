@@ -19,27 +19,28 @@ function App() {
         <CarouselItem>
           <img src={Logo3} alt="" />
           <span className="linkCarousel">DIA DOS NAMORADOS</span>
-          Presentes em oferta <a href="aqui">aqui</a>.
+          <p> Presentes em oferta</p> <a href="aqui">aqui.</a>
         </CarouselItem>
         <CarouselItem>
           <img src={Logo1} alt="" />
           <span className="linkCarousel">GUIA TÊNIS DE CORRIDA</span>
-          Encontre o seu tênis ideal. <a href="saibaMais">Saiba mais.</a>
+          <p> Encontre o seu tênis ideal.</p>
+          <a href="saibaMais">Saiba mais.</a>
         </CarouselItem>
         <CarouselItem>
           <img src={Logo2} alt="" />
           <span className="linkCarousel">TROCA GRÁTIS</span>
-          Confira os detalhes da nossa política de trocas e devoluções.
+          <p id="none"> Confira os detalhes da nossa política de trocas e devoluções.</p>
+          <p id="respon">política de trocas e devoluções.</p>
           <a href="VejaAqui">Veja aqui.</a>
         </CarouselItem>
         <CarouselItem>
           <img src={Logo4} alt="" />
           <span className="linkCarousel"> CARTÃO PRESENTE</span>
-          para presentes de última hora. <a href="aqui">Saiba mais.</a>
+          <p> para presentes de última hora.</p>
+          <a href="aqui">Saiba mais.</a>
         </CarouselItem>
       </Carousel>
-
- 
     </div>
   );
 }
