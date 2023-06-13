@@ -11,7 +11,7 @@ import Logo4 from "./components/Header/Menu/assets/gift_card_99aa6b2828.png";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="App">
       <Header />
       <Responsivo />
 
