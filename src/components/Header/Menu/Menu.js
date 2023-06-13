@@ -11,7 +11,7 @@ const Menu = () => {
 
         <div id="linksMenu2">
           <div className="dropdown">
-            <button className="dropbtn">dias dos namorados</button>
+            <button className="dropbtn">Promoções</button>
 
             <div className="dropdown-content">
               <div className="row">
