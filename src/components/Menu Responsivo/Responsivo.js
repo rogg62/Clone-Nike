@@ -36,7 +36,7 @@ const Responsivo = () => {
               <button className="closebtn" onClick={closeNav}>
                 {isOpen}&times;
               </button>
-              <a href="link">Dias dos Namorados</a>
+              <a href="link">Promoções</a>
               <a href="link">Lançamentos</a>
               <a href="link">Ofertas</a>
               <a href="link">Masculino</a>
@@ -47,7 +47,7 @@ const Responsivo = () => {
         </div>
       </div>
       <div id="bottomReponsivo">
-        <input type="text" placeholder="Buscar" />
+        <input type="text" />
         <button></button>
       </div>
     </header>
